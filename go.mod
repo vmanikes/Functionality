@@ -1,4 +1,4 @@
-module Iterator
+module github.com/vmanikes/Functionality
 
 go 1.20
 
