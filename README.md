@@ -1,6 +1,7 @@
 # Functionality
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/vmanikes/Functionality)](https://goreportcard.com/report/github.com/vmanikes/Functionality)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vmanikes/Functionality.svg)](https://pkg.go.dev/github.com/vmanikes/Functionality)
 
 ## Introduction
 
