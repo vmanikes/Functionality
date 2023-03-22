@@ -1,4 +1,3 @@
-// Package functionality contains the methods and objects to perform operations on go slices
 package functionality
 
 // Collect method is used to return the slice of type T is the users do not want an iterator type
