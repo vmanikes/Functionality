@@ -45,7 +45,7 @@ func Functionality() {
 	numbers := NewIterator[int]() // Create a new iterator
 	
 	for i := 1; i <= 10; i++ {
-		numbers = append(numbers, i) // Seed some date
+		numbers = append(numbers, i) // Seed some data
 	}
 	
 	sum := numbers.Filter(func(num int) bool {
