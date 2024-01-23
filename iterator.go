@@ -15,5 +15,15 @@ func NewIteratorWithCapacity[T any](cap uint) Iterator[T] {
 
 // NewIterator creates a new iterator without any len or cap
 func NewIterator[T any]() Iterator[T] {
-	return make(Iterator[T], 0, 0)
+	return make(Iterator[T], 0)
+}
+
+func NewIteratorFromExistingSlice[T any](collection []T) Iterator[T] {
+	iter := make(Iterator[T], 0, len(collection))
+
+	for _, val := range collection {
+		iter = append(iter, val)
+	}
+
+	return iter
 }
